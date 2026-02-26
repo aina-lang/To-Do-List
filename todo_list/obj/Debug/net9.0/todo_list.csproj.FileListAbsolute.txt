@@ -26,3 +26,4 @@
 /home/mercia/PROJETS/WEB/To-Do List/todo_list/obj/Debug/net9.0/todo_list.pdb
 /home/mercia/PROJETS/WEB/To-Do List/todo_list/obj/Debug/net9.0/todo_list.genruntimeconfig.cache
 /home/mercia/PROJETS/WEB/To-Do List/todo_list/obj/Debug/net9.0/ref/todo_list.dll
+/home/mercia/PROJETS/WEB/To-Do List/todo_list/obj/Debug/net9.0/todo_list.sourcelink.json

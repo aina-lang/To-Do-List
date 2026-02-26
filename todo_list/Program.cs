@@ -23,7 +23,7 @@ app.MapGet("/tasks/{id}", (int id )=>tasks.FirstOrDefault(t=>t.ID == id));
 app.MapPost("/tasks",(CreateTaskDto createTaskDto) =>
 {
     var newTask = new Task(
-        tasks.Count-1,
+        tasks.Count,
         createTaskDto.Title,
         createTaskDto.Description,
         false,
@@ -32,11 +32,11 @@ app.MapPost("/tasks",(CreateTaskDto createTaskDto) =>
     );
 
     bool exist = tasks.Any(t => t.Title.Equals(createTaskDto.Title, StringComparison.OrdinalIgnoreCase));
-   if(exist)
-   {
-        return Results.BadRequest("Task already exists");
-   }
+    
+    if(exist) return Results.BadRequest("Task already exists");
     tasks.Add(newTask);
+    
     return Results.Created($"/tasks/{newTask.ID}", newTask);
 });
+
 app.Run();
