@@ -23,3 +23,13 @@ Cette API inclut la documentation interactive via **Swagger UI** et des tests au
 ```bash
 git clone https://github.com/aina-lang/To-Do-List.git
 cd To-Do-List
+
+2. Restaurer les packages NuGet :
+
+```bash
+dotnet restore
+
+3. Lancer l’API :
+
+```bash
+dotnet run
