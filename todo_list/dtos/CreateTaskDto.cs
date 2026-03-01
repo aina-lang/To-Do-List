@@ -2,6 +2,7 @@ namespace todo_list.dtos;
 
 public record class CreateTaskDto
 {
-    public required string Title { get; init; }
-    public required string Description { get; init; }
+    public string Title { get; init; }
+    public string Description { get; init; }
+    public bool IsCompleted { get; init; }
 }

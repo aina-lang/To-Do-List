@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/mercia/PROJETS/WEB/To-Do List/todo_list/todo_list.csproj": {}
+    "/home/mercia/PROJETS/WEB/To-Do List/todo_list/TodoList.Tests/TodoList.Tests.csproj": {}
   },
   "projects": {
-    "/home/mercia/PROJETS/WEB/To-Do List/todo_list/todo_list.csproj": {
+    "/home/mercia/PROJETS/WEB/To-Do List/todo_list/TodoList.Tests/TodoList.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mercia/PROJETS/WEB/To-Do List/todo_list/todo_list.csproj",
-        "projectName": "todo_list",
-        "projectPath": "/home/mercia/PROJETS/WEB/To-Do List/todo_list/todo_list.csproj",
+        "projectUniqueName": "/home/mercia/PROJETS/WEB/To-Do List/todo_list/TodoList.Tests/TodoList.Tests.csproj",
+        "projectName": "TodoList.Tests",
+        "projectPath": "/home/mercia/PROJETS/WEB/To-Do List/todo_list/TodoList.Tests/TodoList.Tests.csproj",
         "packagesPath": "/home/mercia/.nuget/packages/",
-        "outputPath": "/home/mercia/PROJETS/WEB/To-Do List/todo_list/obj/",
+        "outputPath": "/home/mercia/PROJETS/WEB/To-Do List/todo_list/TodoList.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mercia/.nuget/NuGet/NuGet.Config"
@@ -45,9 +45,21 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[10.1.4, )"
+              "version": "[17.12.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
             }
           },
           "imports": [
@@ -62,9 +74,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "ujvFKqByTO4=",
+  "dgSpecHash": "ejzaE75VH0g=",
   "success": true,
   "projectFilePath": "/home/mercia/PROJETS/WEB/To-Do List/todo_list/todo_list.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/mercia/.nuget/packages/microsoft.extensions.apidescription.server/9.0.0/microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
+    "/home/mercia/.nuget/packages/microsoft.openapi/2.4.1/microsoft.openapi.2.4.1.nupkg.sha512",
+    "/home/mercia/.nuget/packages/swashbuckle.aspnetcore/10.1.4/swashbuckle.aspnetcore.10.1.4.nupkg.sha512",
+    "/home/mercia/.nuget/packages/swashbuckle.aspnetcore.swagger/10.1.4/swashbuckle.aspnetcore.swagger.10.1.4.nupkg.sha512",
+    "/home/mercia/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.1.4/swashbuckle.aspnetcore.swaggergen.10.1.4.nupkg.sha512",
+    "/home/mercia/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.1.4/swashbuckle.aspnetcore.swaggerui.10.1.4.nupkg.sha512",
+    "/home/mercia/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

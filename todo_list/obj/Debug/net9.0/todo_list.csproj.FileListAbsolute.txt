@@ -27,3 +27,10 @@
 /home/mercia/PROJETS/WEB/To-Do List/todo_list/obj/Debug/net9.0/todo_list.genruntimeconfig.cache
 /home/mercia/PROJETS/WEB/To-Do List/todo_list/obj/Debug/net9.0/ref/todo_list.dll
 /home/mercia/PROJETS/WEB/To-Do List/todo_list/obj/Debug/net9.0/todo_list.sourcelink.json
+/home/mercia/PROJETS/WEB/To-Do List/todo_list/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/home/mercia/PROJETS/WEB/To-Do List/todo_list/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/mercia/PROJETS/WEB/To-Do List/todo_list/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/mercia/PROJETS/WEB/To-Do List/todo_list/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/mercia/PROJETS/WEB/To-Do List/todo_list/obj/Debug/net9.0/todo_list.csproj.AssemblyReference.cache
+/home/mercia/PROJETS/WEB/To-Do List/todo_list/obj/Debug/net9.0/todo_list.MvcApplicationPartsAssemblyInfo.cs
+/home/mercia/PROJETS/WEB/To-Do List/todo_list/obj/Debug/net9.0/todo_list.csproj.Up2Date
