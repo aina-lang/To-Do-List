@@ -2,6 +2,7 @@
 
 Une API **Todo List** construite avec **ASP.NET Core Minimal API**, pour gérer des tâches avec CRUD complet et mise à jour partielle .  
 Cette API inclut la documentation interactive via **Swagger UI** et des tests automatisés avec **xUnit** à venir.
+<img width="1366" height="646" alt="Screenshot From 2026-03-01 16-40-01" src="https://github.com/user-attachments/assets/a720cbf9-9d09-4890-91dd-96e50b2f6ce8" />
 
 ---
 
