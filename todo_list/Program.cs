@@ -26,6 +26,7 @@ app.UseSwagger(options =>
 {
     options.RouteTemplate = "docs/{documentName}/swagger.json";
 });
+
 app.UseSwaggerUI((c) =>
 {
     c.RoutePrefix="docs";
